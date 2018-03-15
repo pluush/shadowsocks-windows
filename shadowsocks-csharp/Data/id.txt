@@ -1,0 +1,146 @@
+# translation for Indonesian
+
+Shadowsocks=Shadowsocks
+
+# Menu items
+
+Enable System Proxy=Nyalakan Proxy Sistem
+Mode=Mode
+PAC=PAC
+Global=Global
+Servers=Server
+Edit Servers...=Edit Server...
+Statistics Config...=Konfigurasi dengan Statistik...
+Start on Boot=Nyalakan saat boot
+Forward Proxy...=Teruskan Proxy...
+Allow Clients from LAN=Perbolehkan Client dari LAN
+Local PAC=PAC Lokal
+Online PAC=PAC Online
+Edit Local PAC File...=Edit File PAC Lokal...
+Update Local PAC from GFWList=Update PAC Lokal dari GFWList...
+Edit User Rule for GFWList...=Edit aturan user untuk GFWList...
+Secure Local PAC=Amankan PAC Lokal
+Copy Local PAC URL=Salin URL PAC Lokal
+Share Server Config...=Bagikan Konfigurasi Server...
+Scan QRCode from Screen...=Scan Kode QR dari Layar...
+Import URL from Clipboard...=Impor URL dari Clipboard...
+Availability Statistics=Statistik Kesediaan
+Show Logs...=Tunjukkan Log...
+Verbose Logging=Catat Log secara Verbose
+Updates...=Pembaruan...
+Check for Updates...=Cek Pembaruan...
+Check for Updates at Startup=Cek Pembaruan saat Startup
+Check Pre-release Version=Cek Versi Pra-rilis
+Edit Hotkeys...=Edit Hotkey...
+About...=Tentang...
+Help=Bantuan
+Quit=Keluar
+Edit Servers=Edit Server
+Load Balance=Seimbangi Beban
+High Availability=Kesediaan Tinggi
+Choose by statistics=Pilih dari statistik
+
+# Config Form
+
+&Add=Tambah (&A)
+&Delete=Hapus (&D)
+Dupli&cate=Duplikat (&C)
+Server=Server
+Server Addr=Alamat Server
+Server Port=Port Server
+Password=Kata Sandi
+Show Password=Tunjukkan Kata Sandi
+Encryption=Enkripsi
+Plugin=Plugin
+Plugin Options=Opsi Plugin
+Proxy Port=Port Proxy
+Remarks=Catatan
+Timeout(Sec)=Timeout(Detik)
+OK=OK
+Cancel=Batal
+New server=Server baru
+Move &Up=Pindahkan keatas (&U)
+Move D&own=Pindahkan kebawah (&O)
+
+# Proxy Form
+
+Edit Proxy=Edit Proxy
+Use Proxy=Pakai Proxy
+Proxy Type=Tipe Proxy
+Proxy Addr=Alamat Proxy
+Proxy Port=Port Proxy
+If server has a plugin, proxy will not be used=Apabila ada plugin di server, proxy tidak akan digunakan
+
+# Log Form
+
+&File=File (&F)
+&Open Location=Buka file (&O)
+E&xit=Keluar (&X)
+&View=Tampilan (&V)
+&Clean Logs=Bersihkan Log (&C)
+Change &Font=Ganti Font (&F)
+&Wrap Text=Wrap Tulisan (&W)
+&Top Most=Selalu Tampilkan (&T)
+&Show Toolbar=Tampilkan Toolbar (&S)
+Log Viewer=Tinjauan Log
+Inbound=Masuk
+Outbound=Keluar
+
+# QRCode Form
+
+QRCode and URL=Kode QR dan URL
+
+# PAC Url Form
+
+Edit Online PAC URL=Edit URL PAC Online
+Edit Online PAC URL...=Edit URL PAC Online...
+Please input PAC Url=Tolong masukkan URL PAC
+
+# HotkeySettings Form
+
+Switch system proxy=Nyala/matikan proxy sistem
+Switch system proxy mode=Ganti mode proxy sistem
+Switch share over LAN=Nyala/matikan "Perbolehkan Client dari LAN"
+Show Logs=Tunjukkan Log
+Switch to prev server=Ganti ke server berikut
+Switch to next server=Ganti ke server sebelum
+Reg All=Daftarkan Semua
+
+# Messages
+
+Shadowsocks Error: {0}=Error Shadowsocks: {0}
+Port already in use=Port sudah digunakan
+Invalid server address=Alamat server tidak valid
+Illegal port number format=Port tidak valid
+Illegal timeout format=Format timeout tidak valid
+Please add at least one server=Tolong tambahkan paling sedikit satu server.
+Server IP can not be blank=IP Server tidak boleh kosong
+Password can not be blank=Password tidak boleh kosong
+Port out of range=Port diluar jangkauan
+Port can't be 8123=Port tidak boleh 8123
+Shadowsocks {0} Update Found=Perbaharuan Shadowsocks {0} Ditemukan
+No update is available=Tidak ada pembaharuan
+Click here to update=Klik disini untuk perbaharui
+Shadowsocks is here=Shadowsocks ada disini.
+You can turn on/off Shadowsocks in the context menu=Shadowsocks bisa dinyalakan/dimatikan di dalam menu konteks.
+System Proxy Enabled=Proxy System Nyala
+System Proxy Disabled=Proxy System Mati
+Failed to update PAC file =Pembaharuan file PAC gagal
+PAC updated=PAC sudah diperbaharui
+No updates found. Please report to GFWList if you have problems with it.=Tidak ada pembaharuan. Lapor ke GFWList jika ada masalah.
+No QRCode found. Try to zoom in or move it to the center of the screen.=Kode QR tidak ditemukan. Coba perbesar atau pindahkan ke tengah layar.
+Shadowsocks is already running.=Shadowsocks sudah berjalan.
+Find Shadowsocks icon in your notify tray.=Temukan Shadowsocks di tray notifikasi.
+If you want to start multiple Shadowsocks, make a copy in another directory.=Jika anda ingin membuka lebih dari satu Shadowsocks, tolong kopi Shadowsocks ke folder lain.
+Failed to decode QRCode=Dekode kode QR gagal.
+Failed to update registry=Perbaharuan registri gagal.
+System Proxy On: =Proxy sistem nyala:
+Running: Port {0}=Berjalan: Port {0}
+Unexpected error, shadowsocks will exit. Please report to=Error tak terduga, shadowsocks akan keluar. Harap laporkan ke：
+Unsupported operating system, use Windows Vista at least.=OS tidak didukung. Harap gunakan Windows Vista atau yang lebih baru.
+Unsupported .NET Framework, please update to 4.6.2 or later.=.NET Framework tidak memadai. Harap update ke 4.6.2 atau yang lebih baru.
+Proxy request failed=Permintaan proxy gagal.
+Proxy handshake failed=Handshake proxy gagal.
+Register hotkey failed=Pendaftaran hotkey gagal.
+Cannot parse hotkey: {0}=Tidak dapat mengurai hotkey: {0}
+Timeout is invalid, it should not exceed {0}=Timeout tidak valid. Timeout tidak boleh lebih dari {0}
